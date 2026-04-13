@@ -171,6 +171,7 @@ fun FormularioScreen(){
             Spacer(modifier = Modifier.height(20.dp))
             Button(
                 onClick = {
+                    // aca es donde se aplica el uso de coroutine
                     scope.launch {
                         //mensaje de envio de formulario (de ser exitoso
                         snackbarHostState.showSnackbar("¡Formulario enviado exitosamente!")
