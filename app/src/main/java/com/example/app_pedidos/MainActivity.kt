@@ -27,6 +27,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+            //quitar el innerpadding
             App_PedidosTheme {
                 FormularioScreen()
             }
