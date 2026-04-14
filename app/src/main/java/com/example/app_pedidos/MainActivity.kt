@@ -28,9 +28,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             App_PedidosTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    FormularioScreen()
-                }
+                FormularioScreen()
             }
         }
     }
